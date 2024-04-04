@@ -1,6 +1,6 @@
 # React Responsive Animation Demo
 
-[![asciicast](https://refine.ams3.cdn.digitaloceanspaces.com/blog/2022-09-01-framer-text-animations/social.png)](https://www.youtube.com/watch?v=PvZAcOU481c)
+[![asciicast](https://i0.wp.com/codemyui.com/wp-content/uploads/2018/07/Play-Icon-to-Video-Animation-on-Click.gif)](https://www.youtube.com/watch?v=PvZAcOU481c)
 
 # Getting Started with Create React App
 
