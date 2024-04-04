@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background: #f9f9f9;
+  overflow: auto;
+}
+
+@font-face {
+  font-family: "PP_NEUE_Montreal", monospace;
+  src: url("./assets/fonts/PP_NEUE_Montreal/PPNEUEMONTREAL-MEDIUM.OTF")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Denton", monospace;
+  src: url("./assets/fonts/Denton/Denton_Test_Thin_100.otf") format("opentype");
+}
+
+.font-PP_NEUE_Montreal {
+  font-family: "PP_NEUE_Montreal";
+}
+
+.font-Denton {
+  font-family: "Denton";
+}
+
+.assess-button {
+  width: 100%;
+  background: #809aa3;
+}
+
+.document-border {
+  border: 1px solid #c4c6ca;
+  border-style: dashed;
+}
+
+#scroll-container::-webkit-scrollbar {
+  scrollbar-width: thin;
+}
+
+#scroll-container::-webkit-scrollbar-track {
+  background: #e7e7e7;
+}
+
+#scroll-container::-webkit-scrollbar-thumb {
+  background: #809aa3;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    translate: translateX(0px);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 2s ease-in;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  left: 50%; /* Center the helmets horizontally */
+  top: 50%; /* Center the helmets vertically */
+  transform: translate(-50%, -50%); /* Center the helmets precisely */
+  animation-duration: 5s; /* Adjust to fit the complete animation duration */
+  animation-iteration-count: 1; /* Run the animation only once */
+  animation-fill-mode: forwards; /* Animation stops at the end */
+}
+
+.moveImage1 {
+  animation-name: moveImage1;
+}
+.moveImage2 {
+  animation-name: moveImage2;
+}
+.moveImage3 {
+  animation-name: moveImage3;
+}
+.moveImage4 {
+  animation-name: moveImage4;
+}
+.moveImage5 {
+  animation-name: moveImage5;
+}
+.moveImage6 {
+  animation-name: moveImage6;
+}
+.moveImage7 {
+  animation-name: moveImage7;
+}
+.moveImage8 {
+  animation-name: moveImage8;
+}
+.moveImage9 {
+  animation-name: moveImage9;
+}
+.moveImage10 {
+  animation-name: moveImage10;
+}
+
+/* Add animation keyframes for each image index */
+@keyframes moveImage1 {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage2 {
+  0% {
+    left: 150px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage3 {
+  0% {
+    left: 300px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage4 {
+  0% {
+    left: 450px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage5 {
+  0% {
+    left: 600px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage6 {
+  0% {
+    left: 750px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage7 {
+  0% {
+    left: 900px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage8 {
+  0% {
+    left: 1050px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage9 {
+  0% {
+    left: 1200px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes moveImage10 {
+  0% {
+    left: 1350px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+/* Add more keyframes for additional images if needed */
